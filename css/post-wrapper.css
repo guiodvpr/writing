@@ -1,0 +1,243 @@
+h1 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 700;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  line-height: 160%;
+  font-weight: 300;
+}
+
+.button-round {
+  padding: 5px 12px;
+  border: 1px solid #191919;
+  border-radius: 20px;
+  background-color: #ffffff;
+  -webkit-transition: border 200ms ease, color 200ms ease;
+  transition: border 200ms ease, color 200ms ease;
+  color: #191919;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Coustard", serif;
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.button-round:hover {
+  border-color: #ffcd00;
+  color: #191919;
+  background-color: #ffcd00;
+}
+
+.post-summary {
+  display: inline-block;
+  margin-bottom: 14px;
+  line-height: 144%;
+  width: 500px;
+}
+
+.img-post{
+  display: inline-block;
+  margin-left: 60px;
+  vertical-align: top;
+ 
+}
+
+
+
+.icon-info {
+  width: 25px;
+  height: 25px;
+}
+
+.icon-info-clock {
+  width: 25px;
+  height: 25px;
+}
+
+.icon-info-calendar {
+  width: 24px;
+  height: 24px;
+}
+
+.post-info {
+  font-family: "Coustard", serif;
+  display: inline-block;
+  margin-right: 8px;
+  color: #191919;
+  font-size: 12px;
+  line-height: 125%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 0px;
+  text-align: center;
+}
+
+.post-info-wrapper {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+.blog-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  line-height: 37px;
+  background-image: linear-gradient(
+    transparent calc(100% - 100px),
+    #181818 5px
+  );
+  background-size: 0;
+  background-repeat: no-repeat;
+  display: inline;
+  transition: 0.2s ease;
+}
+.image-i{
+  width: 150px;
+  height:150px;
+}
+
+.blog-title:hover:first-child {
+  color: #ffcd00;
+  background-size: 100%;
+}
+.blog-title-link {
+  display: block;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  color: #191919;
+  text-decoration: none;
+  font-family: "Coustard", serif;
+  letter-spacing: 1.5px;
+}
+
+.w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.post-wrapper {
+  margin-right: 7%;
+  margin-bottom: 0px;
+  margin-left: 7%;
+  padding-bottom: 35px;
+  border-bottom: 0.6px solid hsl(0, 0%, 86%);
+  background-color: 255, 255, 255, 1;
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  vertical-align: top;
+  
+  /*   box-shadow: 0 1px 1px rgba(110, 110, 110,.1); */
+}
+
+.post-wrapper:hover {
+   box-shadow: 0 5px 20px rgba(110, 110, 110, 0.3); 
+  
+  
+  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffcd00' fill-opacity='0.6' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E"); */
+  border-color: #ffcd00;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.post-wrapper .icon-info {
+  display: inline-block;
+  background-image: url("../img/d1.svg");
+  width: 25px;
+  height: 25px;
+  margin: 0px;
+  padding: 0px;
+  vertical-align: middle;
+  top: 0px;
+}
+
+.post-wrapper .icon-info-clock {
+  display: inline-block;
+  background-image: url("../../img/clock.svg");
+  width: 25px;
+  height: 25px;
+  margin: 0px;
+  padding: 0px;
+  vertical-align: middle;
+  top: 0px;
+}
+
+.post-wrapper .icon-info-calendar {
+  display: inline-block;
+  background-image: url("../../img/calendar.svg");
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+  vertical-align: middle;
+  top: 0px;
+}
+
+.so-icon {
+  float: right;
+  vertical-align: top;
+  margin-right: 50px;
+  
+  
+}
+
+.so-icon-ul {
+  margin: 0;
+  padding: 0;
+  
+  vertical-align: middle;
+  float: right;
+}
+
+.so-icon-ul-li {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  margin-right: 15px;
+  
+}
+
+@media screen and (max-width: 479px) {
+  .post-info-txt{
+    display: none;
+  }
+}
+  @media screen and (max-width: 992px) {
+    .image-i{
+      width: 110px;
+      height: 110px;
+      
+    }
+    .post-wrapper{
+      vertical-align: top;
+    }
+    .img-post{
+      vertical-align: middle; 
+      
+      float: right;
+      
+    }
+    .post-summary{
+      width: 300px;
+      height: 100px;
+    }
+    .so-icon{
+      
+      vertical-align: top;
+      float: right;
+    }
+
+   
+  
+}
